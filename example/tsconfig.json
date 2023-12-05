@@ -21,9 +21,7 @@
     "jsx": "react-jsx",
     "sourceMap": true,
     "rootDir": "./src",
-    "declaration": true,
-    "outDir": "dist"
   },
   "include": ["src/**/*"],
-  "exclude": ["node_modules", "dist", "example"]
+  "exclude": ["node_modules"]
 }

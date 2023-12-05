@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>React Component in HTML</title>
+</head>
+<body>
+<div id="my-component"></div>
+
+<script src="https://unpkg.com/react/umd/react.production.min.js"></script>
+<script src="https://unpkg.com/react-dom/umd/react-dom.production.min.js"></script>
+<script src="../dist/bundle.umd.js"></script>
+
+<!-- 컴포넌트 초기화 -->
+<script>
+    ReactDOM.render(
+        React.createElement(MyLibrary.ExampleComponent ,{ text : '123'}),
+        document.getElementById('my-component')
+    );
+</script>
+</body>
+</html>
